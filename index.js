@@ -13,9 +13,9 @@ while(isNaN(year)){
 
 
 if(year%4===0 && year%100!=0 || year%400===0){
-  console.log(chalk.green('\nYay! you were born in a leap year'));
-  console.log(chalk.magenta('\nYou can share this with your friends on social media'));
+  console.log(chalk.green('\nYay!! you were born in a leap year'));
+  console.log(chalk.magenta('\nGo and share this with your friends on social media.'));
 }else{
-  console.log(chalk.red('\nOpps! you were not born in a leap year'));
+  console.log(chalk.red('\nOpps!! you were not born in a leap year.'));
 }
 
